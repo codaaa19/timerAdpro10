@@ -23,6 +23,8 @@ fn main() {
         println!("Coda's computer: done!");
     });
 
+    println!("Coda's computer: How's your monday?");
+
     // Drop the spawner so that our executor knows it is finished and won't
     // receive more incoming tasks to run.
     drop(spawner);
